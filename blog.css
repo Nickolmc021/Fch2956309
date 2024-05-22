@@ -1,0 +1,118 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100wh;
+}
+header{
+    background-color:  rgb(248, 168, 168);
+    padding: 20px;
+    color: azure;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+header nav ul li{
+    display: inline-block;
+    padding-left: 50px;
+}
+header  nav ul li a{     
+   color: azure;
+}
+header  nav ul li a:hover {     
+    color: rgb(250, 90, 90);
+ }
+
+main{
+    margin-left: 0px;
+    display: inline-flex;
+    width: 70%;
+}
+section{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+section h2{
+    color:  rgb(250, 90, 90);
+}
+section p{
+    margin-top: 20px;
+}
+figure img{
+    width: 250px ;
+    height: 250px ;
+    border: 2px solid  rgb(250, 183, 166);
+}
+aside{
+    background-color:   rgb(250, 183, 166);
+    width: 29.7%;
+    height: 143vh;
+    color: azure;
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-flex;
+}
+aside h3{
+    color:white;
+}
+aside p{
+    color:black;
+}
+footer{
+    background-color:   rgb(248, 168, 168);
+    color: azure;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+main section article{
+    border: 2px solid   rgb(250, 183, 166);
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:  rgb(245, 224, 194);
+}
+main section article p{
+  text-align: center;
+  padding-left: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.contenedor1 {
+    display: inline-flex;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.contenedor2 {
+    display: inline-flex;
+    width: 30%;
+    margin-left: 70px;
+}
+.content2 {
+    display: flex;
+}
+.contenedor3 {
+    display: inline-flex;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.contenedor4 {
+    display: inline-flex;
+    width: 30%;
+    margin-left: 70px;
+}
